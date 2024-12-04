@@ -2,8 +2,9 @@ import os
 import unittest
 from math import isclose
 
+from mip_utils import ticdat_utils as utils
+
 import mip_template
-from mip_template import utils
 
 
 class TestMipMe(unittest.TestCase):
